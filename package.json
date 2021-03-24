@@ -1,0 +1,30 @@
+{
+  "name": "update_vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21",
+    "@splidejs/vue-splide": "^0.3.5",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.9.1",
+    "jquery": "^3.6.0",
+    "sass-loader": "^11.0.1",
+    "swiper": "^6.5.0",
+    "vue": "^3.0.7",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-router": "^4.0.0-0",
+    "vue-slick": "^1.1.16",
+    "vue-slick-carousel": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  }
+}
