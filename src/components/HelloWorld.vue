@@ -36,13 +36,22 @@
   // install Swiper modules
   SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
-  // Import Swiper styles
+
   export default {
     name:"HelloWorld",
     components: {
       Swiper,
       SwiperSlide,
     },
+   
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'dynamicMainBullets',
+  },
+   autoplay: {
+   delay: 5000,
+ },
+
     methods: {
       onSwiper(swiper) {
         console.log(swiper);
